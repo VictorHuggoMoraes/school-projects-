@@ -12,7 +12,3 @@ float Gravidade (float G, float m1, float m2, float d) {
 	return F;
 }
 
-float Relatividade (float m, float c) {
-	float E = m *(c*c);
-	return E;
-}
