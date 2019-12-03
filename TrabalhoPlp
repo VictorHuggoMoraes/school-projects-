@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+float Pitagoras (float a, float b) {
+	float c = sqrt(a*a+b*b);
+	return c;
+}
+
+float Gravidade (float G, float m1, float m2, float d) {
+	float F = G * ((m1*m2) / (d*d));
+	return F;
+}
+
+float Relatividade (float m, float c) {
+	float E = m *(c*c);
+	return E;
+}
